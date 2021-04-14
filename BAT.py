@@ -97,9 +97,7 @@ def bat_solution(sw, Serv_List, MaxIter):
                 best = numpy.copy(S[i, :])
                 fmin = Fnew
                 Best = i         
-                #print("Best = ", Best)     
 
-    print("Best antes do return: ", Best)
     return Best
 
 
